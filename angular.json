@@ -16,6 +16,7 @@
             "outputPath": "dist/proyectodos",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "./componentesMaterial/",
             "polyfills": [
               "zone.js"
             ],
