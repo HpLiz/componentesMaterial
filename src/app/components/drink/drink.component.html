@@ -1,0 +1,8 @@
+<ng-container *ngIf="drink">
+    <p>{{ drink.idDrink }}</p>
+    <h3>{{ drink.strDrink }}</h3>
+    <img [ngSrc]="drink.strDrinkThumb" alt="" width="200" height="200" />
+  </ng-container>
+  
+  <ng-container *ngIf="!drink"> Bebida no renderizado </ng-container>
+  

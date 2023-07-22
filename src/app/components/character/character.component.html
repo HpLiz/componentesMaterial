@@ -1,0 +1,7 @@
+<ng-container *ngIf="character">
+  <p>{{ character.id }}</p>
+  <h3>{{ character.name }}</h3>
+  <img [ngSrc]="character.image" alt="" width="200" height="200" />
+</ng-container>
+
+<ng-container *ngIf="!character"> Personaje no renderizado </ng-container>
